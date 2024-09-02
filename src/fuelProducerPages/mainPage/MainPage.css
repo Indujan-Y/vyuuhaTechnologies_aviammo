@@ -1,0 +1,75 @@
+/* MainPage.css */
+
+.main-page-wrapper {
+    background-color: #ffffff;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    height: calc(100vh - 20px);
+}
+
+.side-bar {
+    border-radius: 20px;
+    width: 250px;
+    background-color: #014186;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-bar-upper {
+    padding: 20px;
+}
+
+.side-bar-role {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.side-bar-role-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.side-bar-role-subtitle {
+    font-size: 1em;
+    color: #dcdcdc; /* Light grey color */
+}
+
+.side-bar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-bar-nav-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.side-bar-nav-item:hover {
+    background-color: #00509e; /* Slightly lighter blue */
+}
+
+.side-bar-lower {
+    padding: 20px;
+    text-align: center;
+}
+
+.side-bar-logout {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.side-bar-logout:hover {
+    background-color: #ff1a1a;
+}

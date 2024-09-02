@@ -1,0 +1,114 @@
+.fuelproducers-profile-wrapper {
+    width: calc(100vw - 320px);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    gap: 20px;
+}
+
+.fuelproducers-profile-titlebar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px;
+}
+
+.fuelproducers-profile-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.fuelproducers-profile-edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #014186;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 120px;
+}
+
+.fuelproducers-profile-newpost-icon {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.fuelproducers-profile-info {
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #DBE6EB;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.fuelproducers-profile-info-img {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #6c757d;
+}
+
+.fuelproducers-profile-info-item {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fuelproducers-profile-info-item-label {
+    font-size: 1.2em;
+}
+
+.fuelproducers-profile-info-item-input {
+    border: none;
+    background-color: transparent;
+    font-size: large;
+}
+
+.fuelproducers-profile-info-item--address .fuelproducers-profile-info-item-input {
+    height: 80px;
+}
+
+.fuelproducers-profile-info-item--bio .fuelproducers-profile-info-item-input {
+    height: 80px;
+}
+
+.fuelproducers-profile-save-button {
+    /* margin-top: 15px; */
+    /* margin-right: 40px; */
+    align-self: end;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #014186;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 180px;
+    height: 40px;
+}
+
+.fuelproducers-edit-profile-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    background-color: #014186;
+    border-radius: 10px;
+    padding: 8px 15px;
+    /* height: ; */
+}
+
+.fuelproducers-profile-back-icon {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffffff;
+}

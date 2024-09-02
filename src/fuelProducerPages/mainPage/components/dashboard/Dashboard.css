@@ -1,0 +1,80 @@
+/* Dashboard.css */
+
+.dashboard-wrapper {
+    width: calc(100% - 300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.fuelproducers-dashboard-topbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #014186;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.fuelproducers-dashboard-topbar-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.fuel-producers-dashboard-title {
+    font-size: 2em;
+    align-self: flex-start;
+}
+
+.fuel-producers-censor-values {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+}
+
+.fuel-producers-censor-value {
+    background-color: #DBE6EB;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 33%;
+}
+
+.fuel-producers-censor-value-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.value-subdiv {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.value-subdiv svg {
+    margin-right: 10px;
+    font-size: 72px;
+    color: #4A90E2;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}

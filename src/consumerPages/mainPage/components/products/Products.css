@@ -1,0 +1,222 @@
+.consumer-products-wrapper {
+    width: calc(100vw - 300px);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.consumer-products-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #014186;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.consumer-products-search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.consumer-products-topbar-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6c757d;
+}
+
+.consumer-products-title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.consumer-products-title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.consumer-products-cart-icon {
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.consumer-products-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.consumer-products-card {
+    background-color: #DBE6EB;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    width: 155px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.consumer-products-card:hover {
+    transform: scale(1.05);
+}
+
+.consumer-products-card-company {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.consumer-products-card-img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.consumer-products-card-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.consumer-products-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consumer-products-card-price,
+.consumer-products-card-rating {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.consumer-products-card-price {
+    color: #333333;
+}
+
+.consumer-products-card-rating {
+    color: #ffc107;
+}
+
+.consumer-products-card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.consumer-products-card-button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional CSS for cart view */
+.consumer-products-cart {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+
+.consumer-products-cart-products,
+.consumer-cart-summary {
+    background-color: #ffffff;
+    /* border: 1px solid #ced4da; */
+    /* border-radius: 5px; */
+    padding: 20px;
+    width: 48%;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.consumer-products-cart-title,
+.consumer-cart-summary-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.consumer-cart-products {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.consumer-cart-product {
+    padding: 10px;
+    background-color: #DBE6EB;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.consumer-cart-product-company {
+    font-size: 1em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.consumer-cart-product-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.consumer-cart-product-img {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f5;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.consumer-cart-product-details {
+    flex: 1;
+}
+
+.consumer-cart-product-title,
+.consumer-cart-product-price,
+.consumer-cart-product-rating {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.consumer-cart-product-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.consumer-cart-summary-bill-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.consumer-cart-summary-key {
+    font-size: 1em;
+}
+
+.consumer-cart-summary-bill-row hr {
+    border-top: 1px solid #ced4da;
+}

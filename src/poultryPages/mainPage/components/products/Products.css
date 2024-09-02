@@ -1,0 +1,193 @@
+.poultry-products-wrapper {
+    width: calc(100vw - 300px);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    gap: 25px;
+}
+
+.poultry-products-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    background-color: #014186;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.poultry-products-search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.poultry-products-topbar-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6c757d;
+}
+
+.poultry-products-title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    margin-right: 10px;
+}
+
+.poultry-products-title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.poultry-products-newpost-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18B2E3;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffffff;
+    /* margin-right: 20px; */
+    border-radius: 5px;
+    /* padding: 0px 5px; */
+    width: 180px;
+}
+
+.poultry-products-newpost-icon {
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #ffffff;
+    /* margin-right: 20px; */
+}
+
+.poultry-products-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.poultry-products-card {
+    background-color: #DBE6EB;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    width: 155px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.poultry-products-card:hover {
+    transform: scale(1.05);
+}
+
+.poultry-products-card-company {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.poultry-products-card-img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.poultry-products-card-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.poultry-products-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poultry-products-card-price,
+.poultry-products-card-rating {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.poultry-products-card-price {
+    color: #333333;
+}
+
+.poultry-products-card-rating {
+    color: #ffc107;
+}
+
+.poultry-products-card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.poultry-products-card-button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional CSS for newproduct view */
+.poultry-products-newProduct {
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #DBE6EB;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.poultry-new-products-info-item-label {
+    font-size: 1.2em;
+}
+
+.poultry-new-products-info-item-input {
+    font-size: large;
+    width: 60%;
+    height: 30px;
+}
+
+.poultry-new-products-info-item-product-description .poultry-new-products-info-item-input {
+    height: 90px;
+}
+
+.poultry-new-products-info-item-product-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #DBE6EB;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.poultry-new-product-img {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #6c757d;
+}
+
+.poultry-new-products-info-img-label {
+    font-size: 1.2em;
+}

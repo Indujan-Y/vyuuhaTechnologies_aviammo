@@ -1,0 +1,14 @@
+:root {
+  --text-color: #000000;
+  --primary-color: #d9d9d9;
+  --secondary-color: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  background-color: #ffffff;
+}
